@@ -1,0 +1,196 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+header, footer, section, aside, nav, article {         
+	display:block;
+}
+
+body{
+	font-family: Verdana;
+	font-size:13px;
+	color: #2a2a2a;
+	background-color: #008086;
+    display: block;
+}
+
+#wrapper, body + section{
+	width:940px;
+	padding:0px;
+	margin: 20px auto;
+	border:3px solid #686868;
+    background-color: #008086;
+}
+
+header{
+	height:160px;
+}
+
+footer{
+	height:50px;
+	background-color:#2a2a2a;
+	color: rgb(253,248,206);
+}
+
+footer p{
+	padding-left:38px;
+	padding-top:14px;
+}
+
+nav + section, #inhoud{
+	height:500px;
+	background-color:#bde6e8;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+nav {
+	height:50px;
+	background-color: #2a2a2a;
+	margin:auto;
+}
+
+nav li{
+	float:left;
+	list-style-type:none;
+	padding-top:17px;
+}
+
+nav a{
+	text-decoration: none;
+	color: rgb(253,248,206);
+	padding:5px;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-right:20px;
+	border-radius:5px;
+}
+
+nav a:first-of-type{
+	margin-left:30px;
+}
+
+nav a:hover, nav a:active{
+	background-color: #00a85c;
+	background:white;
+	color: #2a2a2a;
+}
+
+.huidige_pagina
+               {
+	background-color:white;
+	color: #2a2a2a;
+}
+
+
+/*articles*/
+	
+article{
+	width:400px;
+	float:right;
+	padding-left:25px;
+	padding-right:20px;
+	padding-top:10px;
+	margin-right:10px;
+	margin-left:0px;
+	border-left:2px solid #686868;
+	border-right:2px solid #686868;
+}
+
+iframe{
+	margin-top:0px;
+}
+
+/*titels*/
+
+h2,h4{
+	color:#2a2a2a;
+	margin-top:10px;
+	margin-bottom:20px;
+}
+
+/*img*/
+
+header img{
+	width:940px;
+	height:160px;
+}
+
+/*asides*/
+
+#links {
+    padding-left: 25px;
+}
+
+#sect {
+    margin-right: 10px;
+}
+
+aside{
+	font-size:13px;
+	padding-left:15px;
+	padding-right:25px;
+	padding-top:10px;
+	padding-bottom:15px;
+	margin-right: 0px;
+	margin-top:0px;
+	margin-left: 0px;
+}
+
+#links, aside:first-of-type{
+	width:140px;
+	background-color:#bde6e8;
+	color:#2a2a2a;
+	float:left;
+}
+
+#nieuwsbrief, aside:last-of-type{
+	width:170px;
+	color:white;
+	background-color: #008086;
+	float:right;
+	margin-left:0px; 
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-top: 0px;    
+}
+
+#nieuwsbrief h4, aside:last-of-type h4{
+	color:#2a2a2a;
+}
+
+aside li{
+	list-style-image:url('images/hart.png');
+}
+
+aside a{
+	color:#2a2a2a;
+	text-decoration:none;
+}
+
+label{
+	display:block;
+	margin:15px;
+	margin-left:0px;
+	margin-bottom:10px;
+	margin-top:15px;
+}
+
+input{
+	background-color:white;
+	padding:5px;
+	border:none;
+	font-family: Verdana;
+	font-size:12px;
+}
+
+input:hover[type="submit"], input:active[type="submit"]{
+	border:3px inset lightgrey;
+}
+
+input[type="submit"]{
+	margin-top:10px;
+}
+
+
